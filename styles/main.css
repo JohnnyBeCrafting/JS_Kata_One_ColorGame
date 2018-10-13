@@ -1,0 +1,68 @@
+/******************
+      LAYOUTS
+ *****************/
+html,body{
+    min-height: 100%;
+}
+
+/* LAYOUT: CONTAINER */
+.container{
+    max-width: 920px; 
+    margin: auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* LAYOUT: BANNER */
+.banner-text{
+    text-align: center;
+}
+/* LAYOUT: DIFFICULTY BUTTONS*/
+.flex-display{
+    display: flex;
+}
+.flex-justify_end{
+    justify-content: flex-end;
+}
+.flex-justify_center{
+    justify-content: center;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    margin: 8px;
+    cursor: pointer;
+    border: 1px solid blueviolet;
+}
+
+
+
+/*******************
+     COLORS
+********************/
+.skin-white{
+    color: #fff;
+}
+/*******************
+     TYPOGRAPHY
+********************/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*******************
+     COMPONENTS
+********************/
+.banner{
+    padding: 3em;
+    background-color: #ff0066;
+}
+
+.btn{
+    text-decoration: none;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}

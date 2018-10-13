@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Johnny learns JS: Color Guessing Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles/typography.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="banner">
+            <div class="banner-text push">
+                <p class="peta skin-white">Can you guess which square has this background color?</p>
+                <p class="mega skin-white"><span id="backgroundColor"></span></p>
+                <button class="btn" id="reload">new round</button>
+            </div>
+            <div class="flex-display flex-justify_center">
+                <p><span class="mega skin-white" id="response-text"></span></p>
+            </div>
+            <div class="flex-display flex-justify_end">
+                <button class="btn push-r-3-4 mode"  value="easy_mode">Easy</button>
+                <button class="btn push-r-3-4 mode"  value="hard_mode">Hard</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+    </div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
